@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  body{
+    padding: 20px;
+  }
+}
+#header {
+  justify-content: space-between;
+  display: flex;
+
+  background-color: #255538;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  
+  height: 50px;
+  flex-wrap: wrap;
+  top: 20px;
+  left: 20px;
+  border-radius: 6px;
+  flex-flow: row wrap;
+  padding-left: 70px;
+  padding-right: 70px;
+  align-self: center;
+  margin: 0 auto;
+
+  #BitCook {
+    color: white;
+    font-family: serif;
+    
+  }
+  #SendyouRecipe {
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    width: 126px;
+    height: 24px;
+    top: 37px;
+    left: 1220px;
+  }
+}
+
+#imagen-1 {
+  background-image: url(./imagen-1.jpeg);
+  align-items: center;
+  color:#804665 ;
+  align-content: center;
+  width: 1239px;
+  height: 368px;
+  top: 1555px;
+  left: 157px;
+  object-fit: center;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 61px;
+  background-size: cover;
+  background-position-y: center;
+  margin: 28px auto;
+}
+
+#Ourbestrecipes {
+  color: #7e4333;
+  size: 24px;
+  padding: 20px;
+}
+
+#SimpleOmelette-1 {
+  color: #7e4333;
+  font-size: 36px;
+
+  font-family: serif;
+}
+li {
+  color: black;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  grid-gap: 10px;
+flex-wrap: wrap;
+  size: 150 x 50;
+  justify-content: space-between;
+  display: flex;
+  font-weight: bold;
+
+  }
+
+
+
+
+.grid-item {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  color: #7e4333;
+  size: 36px;
+  line-height: 49.36px;
+  font-family: serif;
+  
+}
+li {
+  line-height: 24px;
+  size: 16px;
+  font-family: sans-serif;
+  width: 261px;
+  height: 72px;
+  top: 913px;
+  left: 540px;
+
+}
+#receta-1 img {
+  width: 380px;
+  height: 248px;
+  object-fit: cover;
+}
+
+#footer{
+  justify-content: center;
+  background-color: #255538;
+  color: #ddd;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+  top: 20px;
+  left: 20px;
+  border-radius: 6px;
+  flex-flow: row wrap;
+  padding-left: 70px;
+  padding-right: 70px;
+  align-self: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
